@@ -1,0 +1,11 @@
+void VarSize(char SIZE);
+void Toggle(int*);
+void TogglePin(int,u8);
+void SetBit(int,u8);
+void ClearBit(int,u8);
+u8 GetBit(int,u8);
+void ClearPort(int *ptr);
+void SetPort(int *ptr);
+void SetValue(s16 *ptr,u8 Value);
+void BuzzerOn(u32 frequency,f32 DutyCycle);
+void ADC1_Init();

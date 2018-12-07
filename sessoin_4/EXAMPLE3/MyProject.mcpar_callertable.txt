@@ -1,0 +1,10 @@
+main
+	__CC2DW
+	__FillZeros
+	GPIO_Digital_Input
+		GPIO_Config
+			GPIO_Clk_Enable
+	GPIO_Digital_Output
+		GPIO_Config
+	Button
+		Delay_500us

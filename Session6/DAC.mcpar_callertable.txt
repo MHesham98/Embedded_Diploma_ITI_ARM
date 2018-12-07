@@ -1,0 +1,10 @@
+main
+	__FillZeros
+	GPIO_Digital_Output
+		GPIO_Config
+			GPIO_Clk_Enable
+	DAC1_Init
+		DACx_Init
+	DAC1_Ch1_Output
+		DACx_12ROutput
+			DACx_Output

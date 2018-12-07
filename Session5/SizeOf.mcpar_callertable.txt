@@ -1,0 +1,17 @@
+main
+	__CC2DW
+	__FillZeros
+	GPIO_Digital_Output
+		GPIO_Config
+			GPIO_Clk_Enable
+	ADC_Set_Input_Channel
+		GPIO_Analog_Input
+			GPIO_Config
+	ADC1_Init
+		ADCx_Init
+			RCC_GetClocksFrequency
+				Get_Fosc_kHz
+	ADC1_Get_Sample
+		ADCx_Get_Sample
+			Delay_1us
+	BuzzerOn
